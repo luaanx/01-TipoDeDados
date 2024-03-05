@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	cout << "Estrutura de Dados - Fatec" << endl;
-	cout << "Alterado por Luan Barbosa - dia 05/03/2024\n";
+	cout << "Alterado por: Guilherme de Oliveira" << endl;
 
 	cout << "Tipos Numericos\n";
 	cout << "===============\n";
@@ -38,20 +38,6 @@ int main()
 	cout << "===========\n";
 	string texto = "Estrutura de Dados vai ser moleza!";
 	cout << "string texto = \"" << texto << "\" ocupa " << sizeof(texto) << " bytes\n";
-
-
-
-	cout << "\nLuan fazendo arte\n";
-	cout << "===========\n";
-	string teste = "Teste de texto!";
-	cout << "string teste = \"" << teste << "\" ocupa " << sizeof(teste) << " bytes\n";
-	
-	cout << "\nMeu Teste de texto\n";
-	cout << "===========\n";
-	string* testep = &teste;
-	cout << "Para a variavel 'texto' do exemplo acima: string* ponteiro = &teste\nO endereco da memoria onde o valor foi armazenado (ponteiro) = " << testep << endl;
-	cout << "O valor armazenado no local indicado pleo ponteiro e *ponteiro = \"" << *testep << "\n";
-
 
 	cout << "\nPonteiros\n";
 	cout << "===========\n";
